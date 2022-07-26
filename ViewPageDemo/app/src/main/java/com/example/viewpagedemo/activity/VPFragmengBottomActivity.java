@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -125,6 +126,7 @@ public class VPFragmengBottomActivity extends AppCompatActivity implements View.
             @Override
             public void onPageSelected(int position) {
                 onViewPagerSelected(position);
+                Toast.makeText(VPFragmengBottomActivity.this, "第" + position + "页", Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -153,5 +155,4 @@ public class VPFragmengBottomActivity extends AppCompatActivity implements View.
                 break;
         }
     }
-
 }

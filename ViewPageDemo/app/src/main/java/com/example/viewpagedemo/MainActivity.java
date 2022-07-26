@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.viewpagedemo.activity.VPFragmengBottomActivity;
+import com.example.viewpagedemo.activity.VPFragmengBottomNavActivity;
 import com.example.viewpagedemo.activity.ViewPagerTestActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,7 +22,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, ViewPagerTestActivity.class));
     }
 
-    public void jumpToViewPageFragmentBottom(View view) {
+    public void jumpToViewPagerFragmentBottom(View view) {
         startActivity(new Intent(this, VPFragmengBottomActivity.class));
+    }
+
+    public void jumpToViewPagerFragmentBottomNav(View view) {
+        startActivity(new Intent(this, VPFragmengBottomNavActivity.class));
     }
 }
