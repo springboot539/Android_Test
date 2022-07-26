@@ -21,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
         String S = "OHOHOH";
         return S;
     }
+    
+    public String new3(){
+        String S3 = "这个从Git上编辑得到的效果";
+        return S3;
+    }
 }
