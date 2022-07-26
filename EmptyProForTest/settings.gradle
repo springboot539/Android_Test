@@ -1,0 +1,2 @@
+rootProject.name = "EmptyProForTest"
+include ':app'
