@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.viewpagedemo.activity.VPFragmengBottomActivity;
 import com.example.viewpagedemo.activity.VPFragmengBottomNavActivity;
+import com.example.viewpagedemo.activity.VPFragmengBottomNavTabLayoutActivity;
 import com.example.viewpagedemo.activity.ViewPagerTestActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,5 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void jumpToViewPagerFragmentBottomNav(View view) {
         startActivity(new Intent(this, VPFragmengBottomNavActivity.class));
+    }
+
+    public void jumpToViewPagerFragmentBottomNavTabLayout(View view) {
+        startActivity(new Intent(this, VPFragmengBottomNavTabLayoutActivity.class));
     }
 }

@@ -21,6 +21,7 @@
         <activity android:name=".activity.ViewPagerTestActivity" />
         <activity android:name=".activity.VPFragmengBottomActivity" />
         <activity android:name=".activity.VPFragmengBottomNavActivity" />
+        <activity android:name=".activity.VPFragmengBottomNavTabLayoutActivity" />
     </application>
 
 </manifest>
