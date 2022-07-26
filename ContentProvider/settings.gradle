@@ -1,0 +1,3 @@
+rootProject.name = "ContentProvider"
+include ':app'
+include ':calendarprovider'

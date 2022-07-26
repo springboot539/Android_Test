@@ -1,0 +1,5 @@
+rootProject.name = "BroadcastPermissionDemo"
+include ':app'
+include ':servicedemo'
+include ':bankservicedemo'
+include ':alipay'

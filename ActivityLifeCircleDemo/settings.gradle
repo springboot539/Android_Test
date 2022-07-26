@@ -1,0 +1,4 @@
+rootProject.name = "ActivityLifeCircleDemo"
+include ':app'
+include ':activitylandscapelifecircle'
+include ':broadcastdemo'
