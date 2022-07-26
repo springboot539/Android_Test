@@ -16,4 +16,9 @@ public class MainActivity extends AppCompatActivity {
         String S = "WTF";
         return S;
     }
+
+    public String new2(){
+        String S = "OHOHOH";
+        return S;
+    }
 }
