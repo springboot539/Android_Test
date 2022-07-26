@@ -13,4 +13,12 @@
        android:layout_height="wrap_content"
        android:text="跳转到ViewPager"
        android:onClick="jumpToViewPage"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:onClick="jumpToViewPageFragmentBottom"
+       android:text="加上底部导航的ViewPager"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

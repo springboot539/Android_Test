@@ -15,11 +15,11 @@ import java.util.List;
 /**
  * [类的说明]
  */
-public class ViewPageUseFragmentAdapter extends FragmentPagerAdapter {
+public class ViewPagerUseFragmentAdapter extends FragmentPagerAdapter {
 
     private List<Fragment> fragmentList;
 
-    public ViewPageUseFragmentAdapter(@NonNull @NotNull FragmentManager fm, List<Fragment> fragmentList) {
+    public ViewPagerUseFragmentAdapter(@NonNull @NotNull FragmentManager fm, List<Fragment> fragmentList) {
         super(fm);
         this.fragmentList = fragmentList;
     }

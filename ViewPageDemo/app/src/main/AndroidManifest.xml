@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.ViewPagerTestActivity" />
+        <activity android:name=".activity.VPFragmengBottomActivity" />
     </application>
 
 </manifest>

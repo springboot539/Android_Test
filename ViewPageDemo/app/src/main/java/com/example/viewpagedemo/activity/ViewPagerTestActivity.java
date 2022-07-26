@@ -1,7 +1,6 @@
 package com.example.viewpagedemo.activity;
 
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,8 +8,8 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.viewpagedemo.R;
-import com.example.viewpagedemo.adapter.ViewPageUseFragmentAdapter;
-import com.example.viewpagedemo.fragment.ViewPageUseFragment;
+import com.example.viewpagedemo.adapter.ViewPagerUseFragmentAdapter;
+import com.example.viewpagedemo.fragment.ViewPagerUseFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,15 +28,15 @@ public class ViewPagerTestActivity extends AppCompatActivity {
         setContentView(R.layout.viewpage);
         mVp = findViewById(R.id.vp);
         initData();
-        ViewPageUseFragmentAdapter adapter = new ViewPageUseFragmentAdapter(getSupportFragmentManager(), fragmentList);
+        ViewPagerUseFragmentAdapter adapter = new ViewPagerUseFragmentAdapter(getSupportFragmentManager(), fragmentList);
         mVp.setAdapter(adapter);
     }
 
     private void initData() {
         fragmentList = new ArrayList<>();
-        ViewPageUseFragment fragment = ViewPageUseFragment.newInstance("这个是第一个界面内文字", "");
-        ViewPageUseFragment fragment2 = ViewPageUseFragment.newInstance("这个是第二个界面内文字", "");
-        ViewPageUseFragment fragment3 = ViewPageUseFragment.newInstance("这个是第三个界面内文字", "");
+        ViewPagerUseFragment fragment = ViewPagerUseFragment.newInstance("这个是第一个界面内文字", "");
+        ViewPagerUseFragment fragment2 = ViewPagerUseFragment.newInstance("这个是第二个界面内文字", "");
+        ViewPagerUseFragment fragment3 = ViewPagerUseFragment.newInstance("这个是第三个界面内文字", "");
         fragmentList.add(fragment);
         fragmentList.add(fragment2);
         fragmentList.add(fragment3);

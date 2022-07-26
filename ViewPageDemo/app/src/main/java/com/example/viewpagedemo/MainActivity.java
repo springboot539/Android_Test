@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.viewpagedemo.activity.VPFragmengBottomActivity;
 import com.example.viewpagedemo.activity.ViewPagerTestActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,5 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void jumpToViewPage(View view) {
         startActivity(new Intent(this, ViewPagerTestActivity.class));
+    }
+
+    public void jumpToViewPageFragmentBottom(View view) {
+        startActivity(new Intent(this, VPFragmengBottomActivity.class));
     }
 }

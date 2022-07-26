@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.example.viewpagedemo.R;
 
 
-public class ViewPageUseFragment extends Fragment {
+public class ViewPagerUseFragment extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -25,14 +25,14 @@ public class ViewPageUseFragment extends Fragment {
     private String mParam2;
     private TextView mTvContent;
 
-    public ViewPageUseFragment() {
+    public ViewPagerUseFragment() {
 
     }
 
 
     // TODO: Rename and change types and number of parameters
-    public static ViewPageUseFragment newInstance(String param1, String param2) {
-        ViewPageUseFragment fragment = new ViewPageUseFragment();
+    public static ViewPagerUseFragment newInstance(String param1, String param2) {
+        ViewPagerUseFragment fragment = new ViewPagerUseFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
