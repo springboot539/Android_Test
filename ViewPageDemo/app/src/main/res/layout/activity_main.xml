@@ -30,4 +30,10 @@
         android:layout_height="wrap_content"
         android:onClick="jumpToViewPagerFragmentBottomNavTabLayout"
         android:text="实现Fragment里面使用Fragment" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toFragmentDrawer"
+        android:text="Fragment实现侧滑菜单" />
 </LinearLayout>

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.viewpagedemo.activity.FragmentDrawerActivity;
 import com.example.viewpagedemo.activity.VPFragmengBottomActivity;
 import com.example.viewpagedemo.activity.VPFragmengBottomNavActivity;
 import com.example.viewpagedemo.activity.VPFragmengBottomNavTabLayoutActivity;
@@ -33,5 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void jumpToViewPagerFragmentBottomNavTabLayout(View view) {
         startActivity(new Intent(this, VPFragmengBottomNavTabLayoutActivity.class));
+    }
+
+    public void FragmentDrawer(View view) {
+        startActivity(new Intent(this, FragmentDrawerActivity.class));
     }
 }
