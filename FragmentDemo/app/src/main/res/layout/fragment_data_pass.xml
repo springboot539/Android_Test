@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragment.DataPassFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_pass_data_by_get_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过getActivity传递数据"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_pass_data_by_interface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过接口向Activity传递数据"
+        android:textAllCaps="false" />
+
+</LinearLayout>

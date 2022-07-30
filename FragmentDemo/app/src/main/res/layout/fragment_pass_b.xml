@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragment.FragmentPassA">
+
+    <TextView
+        android:id="@+id/tv_b_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        tools:text="hello world ! " />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_pass_b"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:text="向FragmentA传递数据"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_pass_b_by_interface"
+        android:text="通过接口向FragmentA传递数据"
+        android:textSize="20sp" />
+
+</LinearLayout>
